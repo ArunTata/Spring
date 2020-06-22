@@ -38,7 +38,7 @@ public class ModelController {
 
     @RequestMapping(value = "/model", method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
-    public List<Model> getAllModels() {
+    public List<Model> getAllModels(){
         return modelService.getAllModels();
     }
 
